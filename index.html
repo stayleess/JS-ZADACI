@@ -14,12 +14,21 @@
         // Jedan nacin u konzoli
         var r = 10;
         var visina = 5;
-        var pi = Math.PI;
 
-        let zapremina = Math.pow(r, 2) * visina * pi;
+        var zapremina = Math.pow(r, 2) * visina * Math.PI;
+
         console.log("Zapremina valjka je: " + zapremina);
 
 
+        // Drugi nacin prikaza u ALERT PROZORU:
+
+        var poluprecnik = prompt("Unesi poluprecnik valjka:")
+        var h = prompt("Unesi visinu valjka")
+
+
+        var zapreminaValjka = parseInt(Math.pow(poluprecnik, 2)) * parseInt(h) * Math.PI
+
+        alert("Zapremina valjka je: " + zapreminaValjka)
 
 
     </script>
