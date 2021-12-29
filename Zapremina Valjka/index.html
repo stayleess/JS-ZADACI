@@ -22,22 +22,22 @@
 
         // Drugi nacin prikaza u ALERT PROZORU:
 
-        var poluprecnik = prompt("Unesi poluprecnik valjka:")
-        var h = prompt("Unesi visinu valjka")
+        var poluprecnik = prompt("Unesi poluprecnik valjka u cm:")
+        var h = prompt("Unesi visinu valjka u cm")
 
 
         var zapreminaValjka = parseInt(Math.pow(poluprecnik, 2)) * parseInt(h) * Math.PI
 
-        alert("Zapremina valjka je: " + zapreminaValjka)
+        alert("Zapremina valjka je: " + zapreminaValjka + " cm")
 
-        
+
         // Treci nacin ispisa u HTML dokumentu:
         var r1 = 10;
         var visina1 = 5;
 
         var zapremina1 = Math.pow(r, 2) * visina1 * Math.PI;
 
-        document.log("Zapremina valjka je: " + zapremina1);
+        document.write("Zapremina valjka u cm je: " + zapremina1);
 
     </script>
 </body>
